@@ -22,7 +22,7 @@ v2.5.1 is the first public open-source release. v2.5.0 and earlier numbers refer
 
 Never replace a published tag, DMG, or checksum with different content. Publish a new patch release to fix a problem, and add an upgrade notice to the affected release. Keep older release pages and downloads. Mark preview releases as Pre-release without replacing the stable Latest release.
 
-This repository has GitHub release immutability enabled: publication locks the version tag and release assets. Upload every asset to the draft and finish verification before publishing. See [GitHub’s documentation](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/prevent-release-changes).
+This repository has GitHub release immutability enabled. It takes effect when the official Release is published, locking its version tag and assets. An unpublished draft candidate may still have its source, candidate tag, and assets corrected during review; verify their consistency again before publication. After publication, do not replace the tag, DMG, or checksum: ship changes in the next version. See [GitHub’s documentation](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/prevent-release-changes).
 
 ## What CI verifies
 

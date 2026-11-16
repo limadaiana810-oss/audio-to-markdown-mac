@@ -22,7 +22,7 @@ v2.5.1 是首次公开开源版本。v2.5.0 及更早的编号属于公开发布
 
 已公开的 tag、DMG 和校验文件不覆盖、不换包。发现问题发布下一个修订版本，并在旧 Release 说明问题及升级入口。旧版本保留自己的页面和下载链接；“最新”入口随正式发布更新。预览版标为 Pre-release，不替换稳定版 Latest。
 
-本仓库已开启 GitHub Release 不可变保护：公开后，版本 tag 和附件将被锁定。因此必须先在草稿中上传全部附件、完成校验，再公开发布。见 [GitHub 官方说明](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/prevent-release-changes)。
+本仓库已开启 GitHub Release 不可变保护，约束在正式 Release 公开发布后生效，届时版本 tag 和附件将被锁定。尚未公开的草稿候选可在核对中修正源码、候选 tag 和附件；修正后重新验证它们的一致性，再公开发布。正式发布后不覆盖 tag、DMG 或校验文件，修改通过下一版本交付。见 [GitHub 官方说明](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/prevent-release-changes)。
 
 ## 自动检查负责什么
 

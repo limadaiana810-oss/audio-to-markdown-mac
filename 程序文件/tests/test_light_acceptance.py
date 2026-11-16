@@ -334,8 +334,9 @@ class ProcessMeasurementTests(unittest.TestCase):
                           "peak_concurrent_chunks": 4, "transcript": "你好"}
             args = ["--audio", str(audio), "--source-kind", "synthetic", "--original-model-dir", str(original),
                     "--light-model-dir", str(light), "--original-python", "/original-python",
-                    "--light-python", "/light-python", "--repeats", "2"]
-            with patch.object(accept.shutil, "which", side_effect=lambda value: value), \
+                    "--light-python", "/light-python", "--repeats", "2", "--threads", "4"]
+            with patch.object(accept.os, "cpu_count", return_value=3), \
+                 patch.object(accept.shutil, "which", side_effect=lambda value: value), \
                  patch.object(accept, "interpreter_info", side_effect=lambda value: {"executable": value}), \
                  patch.object(accept, "hardware_info", return_value={"chip": "Apple M5 Pro", "memory_bytes": 48 * 1024 ** 3}), \
                  patch.object(accept, "run_case", side_effect=fake_run), \
