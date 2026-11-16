@@ -1,0 +1,17 @@
+录音转写 / Audio to Markdown — 第三方组件
+
+离线 DMG 随包提供 Python、依赖和轻量模型。项目自有代码使用根目录 LICENSE 中的 MIT 许可；第三方代码、模型与运行组件保留各自许可，不因本项目开源而改为 MIT。
+
+· FunASR / funasr-onnx：https://github.com/modelscope/FunASR
+· 3D-Speaker / CAM++：https://github.com/modelscope/3D-Speaker
+· 模型：Paraformer、FSMN VAD、CT-Transformer、CAM++；锁定模型卡声明 Apache-2.0，见第三方许可/模型许可。
+· Python：Astral python-build-standalone，https://github.com/astral-sh/python-build-standalone
+· PyTorch、ONNX Runtime、NumPy、SciPy 等：版本、项目链接和完整许可证见第三方许可/Python依赖清单.json 与 Python及依赖许可。
+· FFmpeg 9.0.2：音频处理专用构建，独立进程调用，未启用 GPL、nonfree 或网络功能；适用 LGPL-2.1-or-later。完整源码、构建脚本及许可随包提供。已移除 imageio-ffmpeg wheel 原带的通用 FFmpeg 二进制。
+· SoundFile 所带 libsndfile 及其音频库、python-soxr：保留上游 LGPL/BSD 等许可，源码、构建来源及补充许可证见第三方许可/补充依赖许可。
+
+模型来源、权重及产物 SHA256 见 models.tsv、models-light.manifest.json；导出与量化步骤见 export_light_models.py。软件转写不上传音频，模型总结由用户另行进行。
+
+完整中英文说明见源码根目录 THIRD_PARTY_NOTICES.md。再次分发时请保留对应组件的版权、许可与源码材料。
+
+The offline DMG includes third-party runtimes, dependencies and models. The project's MIT license applies to its own code only. Third-party components retain their original licenses. See THIRD_PARTY_NOTICES.md, the bundled third-party notices, source archives and build scripts.

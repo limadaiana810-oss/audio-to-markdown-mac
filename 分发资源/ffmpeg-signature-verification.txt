@@ -1,0 +1,11 @@
+gpg: key B4322F04D67658D8: public key "FFmpeg release signing key <ffmpeg-devel@ffmpeg.org>" imported
+gpg: can't connect to the gpg-agent: File name too long
+gpg: Total number processed: 1
+gpg:               imported: 1
+gpg: Signature made Fri Sep 18 10:46:02 2026 CST
+gpg:                using RSA key FCF986EA15E6E293A5644F10B4322F04D67658D8
+gpg:                issuer "ffmpeg-devel@ffmpeg.org"
+gpg: Good signature from "FFmpeg release signing key <ffmpeg-devel@ffmpeg.org>" [unknown]
+gpg: WARNING: The key's User ID is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+      FCF986EA15E6E293A5644F10B4322F04D67658D8

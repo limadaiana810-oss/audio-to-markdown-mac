@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "pipeline_version": "light-cif-v2",
+  "exporter_sha256": "ff475751659153ab4d00a1fc681bc636a92ea7a2c8067778a0bbd685ebe5fd49",
+  "dependencies": {
+    "funasr": "1.4.24",
+    "funasr-onnx": "0.4.10",
+    "torch": "2.15.0",
+    "torchaudio": "2.11.1",
+    "numpy": "1.26.4",
+    "onnx": "1.19.1",
+    "onnxruntime": "1.23.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "kaldi-native-fbank": "1.23.0",
+    "jieba": "0.42.1",
+    "PyYAML": "6.0.3"
+  },
+  "source_manifest_sha256": "f99d0cf3beaa80266deb4749defc7fe306b4d69106125d4f42d92ec8263577f3",
+  "generated_at": "2026-11-12T00:48:03+0800",
+  "sources": [
+    {
+      "component": "asr",
+      "path": "asr/am.mvn",
+      "size": 11203,
+      "sha256": "29b3c740a2c0cfc6b308126d31d7f265fa2be74f3bb095cd2f143ea970896ae5"
+    },
+    {
+      "component": "asr",
+      "path": "asr/config.yaml",
+      "size": 2509,
+      "sha256": "bfd424b9f61846aac63591e96fe24d66b35f4643bddcb4b9bb759db8f987ab79"
+    },
+    {
+      "component": "asr",
+      "path": "asr/configuration.json",
+      "size": 472,
+      "sha256": "b7d2917954fc547e43ad61486a5248596738cf5909907eade11e71c56f446f34"
+    },
+    {
+      "component": "asr",
+      "path": "asr/seg_dict",
+      "size": 8287834,
+      "sha256": "59a2ef803a3f1648ad03a2e1480db1c1ee0c0d7dc4ef4dbd16cea33944329022"
+    },
+    {
+      "component": "asr",
+      "path": "asr/tokens.json",
+      "size": 93676,
+      "sha256": "2b20c2b12572d682afff84ce1c8d560f67b8b32a4c1f21567411d141ed352127"
+    },
+    {
+      "component": "asr",
+      "path": "asr/model.pt",
+      "size": 880502012,
+      "sha256": "5bba782a5e9196166233b9ab12ba04cadff9ef9212b4ff6153ed9290ff679025"
+    },
+    {
+      "component": "vad",
+      "path": "vad/am.mvn",
+      "size": 8040,
+      "sha256": "6820fef9687708c4fc3fab2530179c8fcea6262daa25514380056cd8f6eb1754"
+    },
+    {
+      "component": "vad",
+      "path": "vad/config.yaml",
+      "size": 1215,
+      "sha256": "486861ca26ddb79081663b6179cb204c6bfae71c52f04aafc48a9e9d8dde1e93"
+    },
+    {
+      "component": "vad",
+      "path": "vad/configuration.json",
+      "size": 365,
+      "sha256": "7bce8867e37d55c3dd8f672695ced18077a2be199ea529a5d432d5350fc0acba"
+    },
+    {
+      "component": "vad",
+      "path": "vad/model.pt",
+      "size": 1721366,
+      "sha256": "b3be75be477f0780277f3bae0fe489f48718f585f3a6e45d7dd1fbb1a4255fc5"
+    },
+    {
+      "component": "spk",
+      "path": "spk/campplus_cn_common.bin",
+      "size": 28036335,
+      "sha256": "3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8"
+    },
+    {
+      "component": "spk",
+      "path": "spk/config.yaml",
+      "size": 537,
+      "sha256": "17342041bd5b22f6fd7e32f6e7a267b0bf65f018c0a721bada6547e3d28fbfc9"
+    },
+    {
+      "component": "spk",
+      "path": "spk/configuration.json",
+      "size": 581,
+      "sha256": "6f7acaf1e81ca121f4a3c71b6ddb66beec24350a3ef330e2c846f17829176a8f"
+    },
+    {
+      "component": "punc",
+      "path": "punc/config.yaml",
+      "size": 810,
+      "sha256": "a56ec10925b06fa976ad51af373396be2b13e1eb8dc62a5426b5adebaba7071d",
+      "url": "https://www.modelscope.cn/models/iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/resolve/d488ddd5985989501d57bce7f7a4d4dcfca779d0/config.yaml",
+      "revision": "d488ddd5985989501d57bce7f7a4d4dcfca779d0"
+    },
+    {
+      "component": "punc",
+      "path": "punc/configuration.json",
+      "size": 373,
+      "sha256": "ebca5ff883e03585b2eec84ce80573f851658bdc61f2887db7d076afe6facd91",
+      "url": "https://www.modelscope.cn/models/iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/resolve/d488ddd5985989501d57bce7f7a4d4dcfca779d0/configuration.json",
+      "revision": "d488ddd5985989501d57bce7f7a4d4dcfca779d0"
+    },
+    {
+      "component": "punc",
+      "path": "punc/tokens.json",
+      "size": 4207480,
+      "sha256": "c960ab87bccea4aa15cf49a59f71973c2c330b46668048cd8da253749ec71ee3",
+      "url": "https://www.modelscope.cn/models/iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/resolve/d488ddd5985989501d57bce7f7a4d4dcfca779d0/tokens.json",
+      "revision": "d488ddd5985989501d57bce7f7a4d4dcfca779d0"
+    },
+    {
+      "component": "punc",
+      "path": "punc/model.pt",
+      "size": 291979892,
+      "sha256": "a5818bb9d933805a916eebe41eb41648f7f9caad30b4bd59d56f3ca135421916",
+      "url": "https://www.modelscope.cn/models/iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/resolve/d488ddd5985989501d57bce7f7a4d4dcfca779d0/model.pt",
+      "revision": "d488ddd5985989501d57bce7f7a4d4dcfca779d0"
+    }
+  ],
+  "asr_outputs": [
+    "logits",
+    "token_num",
+    "alphas",
+    "peaks",
+    "encoder_lengths"
+  ],
+  "timestamp_upsample_rate": 1,
+  "files": [
+    {
+      "path": "asr/am.mvn",
+      "size": 11203,
+      "sha256": "29b3c740a2c0cfc6b308126d31d7f265fa2be74f3bb095cd2f143ea970896ae5"
+    },
+    {
+      "path": "asr/config.yaml",
+      "size": 2509,
+      "sha256": "bfd424b9f61846aac63591e96fe24d66b35f4643bddcb4b9bb759db8f987ab79"
+    },
+    {
+      "path": "asr/configuration.json",
+      "size": 472,
+      "sha256": "b7d2917954fc547e43ad61486a5248596738cf5909907eade11e71c56f446f34"
+    },
+    {
+      "path": "asr/model_quant.onnx",
+      "size": 238392487,
+      "sha256": "b011f4f7ee008af2f92f3700b776f7b14bb960fe25f0f8359382b15594e033a4"
+    },
+    {
+      "path": "asr/seg_dict",
+      "size": 8287834,
+      "sha256": "59a2ef803a3f1648ad03a2e1480db1c1ee0c0d7dc4ef4dbd16cea33944329022"
+    },
+    {
+      "path": "asr/tokens.json",
+      "size": 93676,
+      "sha256": "2b20c2b12572d682afff84ce1c8d560f67b8b32a4c1f21567411d141ed352127"
+    },
+    {
+      "path": "vad/am.mvn",
+      "size": 8040,
+      "sha256": "6820fef9687708c4fc3fab2530179c8fcea6262daa25514380056cd8f6eb1754"
+    },
+    {
+      "path": "vad/config.yaml",
+      "size": 1215,
+      "sha256": "486861ca26ddb79081663b6179cb204c6bfae71c52f04aafc48a9e9d8dde1e93"
+    },
+    {
+      "path": "vad/configuration.json",
+      "size": 365,
+      "sha256": "7bce8867e37d55c3dd8f672695ced18077a2be199ea529a5d432d5350fc0acba"
+    },
+    {
+      "path": "vad/model.onnx",
+      "size": 1730427,
+      "sha256": "4b2afc014dec92e2cf62720539f4c15e54140d4d436dbdef9e111c7142026200"
+    },
+    {
+      "path": "vad/model_quant.onnx",
+      "size": 512426,
+      "sha256": "23fd22a54d80131f33356c2bf773dc04174a1a50a00c87d92b922d6f8e959887"
+    },
+    {
+      "path": "punc/config.yaml",
+      "size": 810,
+      "sha256": "a56ec10925b06fa976ad51af373396be2b13e1eb8dc62a5426b5adebaba7071d"
+    },
+    {
+      "path": "punc/configuration.json",
+      "size": 373,
+      "sha256": "ebca5ff883e03585b2eec84ce80573f851658bdc61f2887db7d076afe6facd91"
+    },
+    {
+      "path": "punc/model_quant.onnx",
+      "size": 282752990,
+      "sha256": "c45b3c2ac83a45b773047657a1e066e6c31b9ccb350e8bc0c1e629f070be40cb"
+    },
+    {
+      "path": "punc/tokens.json",
+      "size": 4207480,
+      "sha256": "c960ab87bccea4aa15cf49a59f71973c2c330b46668048cd8da253749ec71ee3"
+    },
+    {
+      "path": "spk/campplus_cn_common.bin",
+      "size": 28036335,
+      "sha256": "3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8"
+    },
+    {
+      "path": "spk/config.yaml",
+      "size": 537,
+      "sha256": "17342041bd5b22f6fd7e32f6e7a267b0bf65f018c0a721bada6547e3d28fbfc9"
+    },
+    {
+      "path": "spk/configuration.json",
+      "size": 581,
+      "sha256": "6f7acaf1e81ca121f4a3c71b6ddb66beec24350a3ef330e2c846f17829176a8f"
+    }
+  ]
+}

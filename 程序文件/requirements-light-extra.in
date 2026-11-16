@@ -1,0 +1,5 @@
+numpy==1.26.4
+funasr-onnx==0.4.10
+onnx==1.19.1
+onnxruntime==1.23.2
+oss2==2.19.1

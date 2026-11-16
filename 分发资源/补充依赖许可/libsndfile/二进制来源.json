@@ -1,0 +1,8 @@
+{
+  "soundfile_version": "0.14.0",
+  "source_tree_url": "https://api.github.com/repos/bastibe/python-soundfile/git/trees/0.14.0",
+  "libsndfile_binaries_commit": "a3e6f9769d0c7e91d2d036cf0fdbe5b4bbf18b87",
+  "binary_url": "https://raw.githubusercontent.com/bastibe/libsndfile-binaries/a3e6f9769d0c7e91d2d036cf0fdbe5b4bbf18b87/libsndfile_arm64.dylib",
+  "binary_sha256": "e9fd4d76bc457dcfb956617e8d467df85087ce069747fccd78e1e702d8629c14",
+  "installed_binary_match": true
+}

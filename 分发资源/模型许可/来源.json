@@ -1,0 +1,27 @@
+[
+  {
+    "file": "Paraformer-README.md",
+    "url": "https://huggingface.co/funasr/paraformer-zh/raw/d7811ee3ac581fbcfdeb37c98c6ba674028433dc/README.md",
+    "bytes": 3537
+  },
+  {
+    "file": "FSMN-VAD-README.md",
+    "url": "https://huggingface.co/funasr/fsmn-vad/raw/df20e6b30c653645fa4ff125cacfcabd1020a669/README.md",
+    "bytes": 2289
+  },
+  {
+    "file": "CAM++-README.md",
+    "url": "https://huggingface.co/funasr/campplus/raw/e4b6ede7ce16997aff4ae69fbca1f0175e2afede/README.md",
+    "bytes": 2020
+  },
+  {
+    "file": "CT-Transformer-README.md",
+    "url": "https://www.modelscope.cn/models/iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/resolve/d488ddd5985989501d57bce7f7a4d4dcfca779d0/README.md",
+    "bytes": 11564
+  },
+  {
+    "file": "Apache-2.0.txt",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "bytes": 11358
+  }
+]

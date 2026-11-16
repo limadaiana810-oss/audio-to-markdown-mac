@@ -1,0 +1,377 @@
+[
+  {
+    "package": "antlr4-python3-runtime",
+    "version": "4.9.3",
+    "file": "antlr4-python3-runtime/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/antlr/antlr4/4.9.3/LICENSE.txt",
+    "sha256": "b1b379fcaf3219593a4c433feb1b35c780bed23fafaae440b1ae2771a9521e3a",
+    "bytes": 2699
+  },
+  {
+    "package": "flac",
+    "version": "1.4.3",
+    "file": "flac/COPYING.FDL",
+    "url": "https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz",
+    "sha256": "f45cc81b400a048b56c9edbd4c3317f7a8958463dfd55aa96f268ecfd6baa12c",
+    "bytes": 20403,
+    "archive_sha256": "6c58e69cd22348f441b861092b825e591d0b822e106de6eb0ee4d05d27205b70",
+    "archive_member": "flac-1.4.3/COPYING.FDL"
+  },
+  {
+    "package": "flac",
+    "version": "1.4.3",
+    "file": "flac/COPYING.GPL",
+    "url": "https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "bytes": 18092,
+    "archive_sha256": "6c58e69cd22348f441b861092b825e591d0b822e106de6eb0ee4d05d27205b70",
+    "archive_member": "flac-1.4.3/COPYING.GPL"
+  },
+  {
+    "package": "flac",
+    "version": "1.4.3",
+    "file": "flac/COPYING.LGPL",
+    "url": "https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz",
+    "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+    "bytes": 26436,
+    "archive_sha256": "6c58e69cd22348f441b861092b825e591d0b822e106de6eb0ee4d05d27205b70",
+    "archive_member": "flac-1.4.3/COPYING.LGPL"
+  },
+  {
+    "package": "flac",
+    "version": "1.4.3",
+    "file": "flac/COPYING.Xiph",
+    "url": "https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz",
+    "sha256": "12600ea1a7affcbf469bd0d8b2cd725e4167114a2ee834b88f5d2857bfd7ddbf",
+    "bytes": 1509,
+    "archive_sha256": "6c58e69cd22348f441b861092b825e591d0b822e106de6eb0ee4d05d27205b70",
+    "archive_member": "flac-1.4.3/COPYING.Xiph"
+  },
+  {
+    "package": "flac",
+    "version": "1.4.3",
+    "file": "flac/flac-1.4.3.tar.xz",
+    "url": "https://downloads.xiph.org/releases/flac/flac-1.4.3.tar.xz",
+    "sha256": "6c58e69cd22348f441b861092b825e591d0b822e106de6eb0ee4d05d27205b70",
+    "bytes": 1006728,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "flatbuffers",
+    "version": "25.12.19",
+    "file": "flatbuffers/LICENSE",
+    "url": "https://raw.githubusercontent.com/google/flatbuffers/7e163021e59cca4f8e1e35a7c828b5c6b7915953/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "package": "jamo",
+    "version": "0.4.1",
+    "file": "jamo/LICENSE",
+    "url": "https://raw.githubusercontent.com/JDongian/python-jamo/d087a9f5f52f066fb933ad1da8e9915703374c9a/LICENSE",
+    "sha256": "35a7d693b5dbc1cb2556f407e8c3baa14ef5e8ed94b85c0ceb1d89be6115807f",
+    "bytes": 11309
+  },
+  {
+    "package": "jieba",
+    "version": "0.42.1",
+    "file": "jieba/LICENSE",
+    "url": "https://raw.githubusercontent.com/fxsjy/jieba/1e20c89b66f56c9301b0feed211733ffaa1bd72a/LICENSE",
+    "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37",
+    "bytes": 1075
+  },
+  {
+    "package": "lame",
+    "version": "3.100",
+    "file": "lame/COPYING",
+    "url": "https://sourceforge.net/projects/lame/files/lame/3.100/lame-3.100.tar.gz/download",
+    "sha256": "bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd",
+    "bytes": 25284,
+    "archive_sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+    "archive_member": "lame-3.100/COPYING"
+  },
+  {
+    "package": "lame",
+    "version": "3.100",
+    "file": "lame/LICENSE",
+    "url": "https://sourceforge.net/projects/lame/files/lame/3.100/lame-3.100.tar.gz/download",
+    "sha256": "7a40cbd8818c57e5285e83c772a459a996d1662c824a879836b97b473c07cae4",
+    "bytes": 487,
+    "archive_sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+    "archive_member": "lame-3.100/LICENSE"
+  },
+  {
+    "package": "lame",
+    "version": "3.100",
+    "file": "lame/lame-3.100.tar.gz",
+    "url": "https://sourceforge.net/projects/lame/files/lame/3.100/lame-3.100.tar.gz/download",
+    "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+    "bytes": 1524133,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "libogg",
+    "version": "1.3.5",
+    "file": "libogg/COPYING",
+    "url": "https://downloads.xiph.org/releases/ogg/libogg-1.3.5.tar.gz",
+    "sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814",
+    "bytes": 1466,
+    "archive_sha256": "0eb4b4b9420a0f51db142ba3f9c64b333f826532dc0f48c6410ae51f4799b664",
+    "archive_member": "libogg-1.3.5/COPYING"
+  },
+  {
+    "package": "libogg",
+    "version": "1.3.5",
+    "file": "libogg/libogg-1.3.5.tar.gz",
+    "url": "https://downloads.xiph.org/releases/ogg/libogg-1.3.5.tar.gz",
+    "sha256": "0eb4b4b9420a0f51db142ba3f9c64b333f826532dc0f48c6410ae51f4799b664",
+    "bytes": 593071,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "libsndfile",
+    "version": "1.2.2",
+    "file": "libsndfile/COPYING",
+    "url": "https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz",
+    "sha256": "ad01ea5cd2755f6048383c8d54c88459cd6fcb17757c5c8892f8c5ea060f6140",
+    "bytes": 26518,
+    "archive_sha256": "3799ca9924d3125038880367bf1468e53a1b7e3686a934f098b7e1d286cdb80e",
+    "archive_member": "libsndfile-1.2.2/COPYING"
+  },
+  {
+    "package": "libsndfile",
+    "version": "1.2.2",
+    "file": "libsndfile/README.md",
+    "url": "https://raw.githubusercontent.com/bastibe/libsndfile-binaries/a3e6f9769d0c7e91d2d036cf0fdbe5b4bbf18b87/README.md",
+    "sha256": "d96dff5f03de7e5370d9541d4d26dce2759787ddaa076df3b6eb9d7b7a8f3f96",
+    "bytes": 1004
+  },
+  {
+    "package": "libsndfile",
+    "version": "1.2.2",
+    "file": "libsndfile/darwin.cmake",
+    "url": "https://raw.githubusercontent.com/bastibe/libsndfile-binaries/a3e6f9769d0c7e91d2d036cf0fdbe5b4bbf18b87/darwin.cmake",
+    "sha256": "cfd44bf9311ec70076638eb08c4ca95fcfa11e1821ec1ed2db91707cc6270c89",
+    "bytes": 627
+  },
+  {
+    "package": "libsndfile",
+    "version": "1.2.2",
+    "file": "libsndfile/libsndfile-1.2.2.tar.xz",
+    "url": "https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz",
+    "sha256": "3799ca9924d3125038880367bf1468e53a1b7e3686a934f098b7e1d286cdb80e",
+    "bytes": 730760,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "libsndfile",
+    "version": "1.2.2",
+    "file": "libsndfile/mac_build.sh",
+    "url": "https://raw.githubusercontent.com/bastibe/libsndfile-binaries/a3e6f9769d0c7e91d2d036cf0fdbe5b4bbf18b87/mac_build.sh",
+    "sha256": "8074171e8dc00433e69d78f2191f28ae4f1815a2e7f1a5cff4d71ce4f09b4172",
+    "bytes": 4415
+  },
+  {
+    "package": "libvorbis",
+    "version": "1.3.7",
+    "file": "libvorbis/COPYING",
+    "url": "https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.7.tar.gz",
+    "sha256": "ec1815db59fcd302846df949d7424876cb2e2dc5ed1606c5fb0b36787b1cf43a",
+    "bytes": 1470,
+    "archive_sha256": "0e982409a9c3fc82ee06e08205b1355e5c6aa4c36bca58146ef399621b0ce5ab",
+    "archive_member": "libvorbis-1.3.7/COPYING"
+  },
+  {
+    "package": "libvorbis",
+    "version": "1.3.7",
+    "file": "libvorbis/libvorbis-1.3.7.tar.gz",
+    "url": "https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.7.tar.gz",
+    "sha256": "0e982409a9c3fc82ee06e08205b1355e5c6aa4c36bca58146ef399621b0ce5ab",
+    "bytes": 1658963,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "mpg123",
+    "version": "1.32.3",
+    "file": "mpg123/COPYING",
+    "url": "https://sourceforge.net/projects/mpg123/files/mpg123/1.32.3/mpg123-1.32.3.tar.bz2/download",
+    "sha256": "c22482728a634a8dfdb4ff72a96d4c1ed64cd8f3e79335c401751ac591609366",
+    "bytes": 40718,
+    "archive_sha256": "2d9913a57d4ee8f497a182c6e82582602409782a4fb481e989feebf4435867b4",
+    "archive_member": "mpg123-1.32.3/COPYING"
+  },
+  {
+    "package": "mpg123",
+    "version": "1.32.3",
+    "file": "mpg123/doc/LICENSE",
+    "url": "https://sourceforge.net/projects/mpg123/files/mpg123/1.32.3/mpg123-1.32.3.tar.bz2/download",
+    "sha256": "cca79ea6fc0a7715e52450df2d86311f990e85067dd13f4d7f5a88d4fd23a07c",
+    "bytes": 957,
+    "archive_sha256": "2d9913a57d4ee8f497a182c6e82582602409782a4fb481e989feebf4435867b4",
+    "archive_member": "mpg123-1.32.3/doc/LICENSE"
+  },
+  {
+    "package": "mpg123",
+    "version": "1.32.3",
+    "file": "mpg123/mpg123-1.32.3.tar.bz2",
+    "url": "https://sourceforge.net/projects/mpg123/files/mpg123/1.32.3/mpg123-1.32.3.tar.bz2/download",
+    "sha256": "2d9913a57d4ee8f497a182c6e82582602409782a4fb481e989feebf4435867b4",
+    "bytes": 1111054,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "opus",
+    "version": "1.4",
+    "file": "opus/COPYING",
+    "url": "https://downloads.xiph.org/releases/opus/opus-1.4.tar.gz",
+    "sha256": "8338ce8d922bb4416ce3dd1e5680173332435e3f0755007ac7801ccd674fe682",
+    "bytes": 1928,
+    "archive_sha256": "c9b32b4253be5ae63d1ff16eea06b94b5f0f2951b7a02aceef58e3a3ce49c51f",
+    "archive_member": "opus-1.4/COPYING"
+  },
+  {
+    "package": "opus",
+    "version": "1.4",
+    "file": "opus/opus-1.4.tar.gz",
+    "url": "https://downloads.xiph.org/releases/opus/opus-1.4.tar.gz",
+    "sha256": "c9b32b4253be5ae63d1ff16eea06b94b5f0f2951b7a02aceef58e3a3ce49c51f",
+    "bytes": 1063408,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "sentencepiece",
+    "version": "0.2.3",
+    "file": "sentencepiece/sentencepiece/LICENSE",
+    "url": "https://files.pythonhosted.org/packages/54/83/0664683546ffca8e36653d39d6217c361d931953f40ce28210b56927a9b6/sentencepiece-0.2.3.tar.gz",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358,
+    "archive_sha256": "21618ad31f0453a1ebf5ec58defed99758d54af0b670546ecac639ddd8b86fbd",
+    "archive_member": "sentencepiece-0.2.3/sentencepiece/LICENSE"
+  },
+  {
+    "package": "sentencepiece",
+    "version": "0.2.3",
+    "file": "sentencepiece/sentencepiece/third_party/darts_clone/LICENSE",
+    "url": "https://files.pythonhosted.org/packages/54/83/0664683546ffca8e36653d39d6217c361d931953f40ce28210b56927a9b6/sentencepiece-0.2.3.tar.gz",
+    "sha256": "155f59997298ee336602c49f9c1110f268ac394ca2197eb02647a3555935ad52",
+    "bytes": 1481,
+    "archive_sha256": "21618ad31f0453a1ebf5ec58defed99758d54af0b670546ecac639ddd8b86fbd",
+    "archive_member": "sentencepiece-0.2.3/sentencepiece/third_party/darts_clone/LICENSE"
+  },
+  {
+    "package": "sentencepiece",
+    "version": "0.2.3",
+    "file": "sentencepiece/sentencepiece/third_party/libsais/LICENSE",
+    "url": "https://files.pythonhosted.org/packages/54/83/0664683546ffca8e36653d39d6217c361d931953f40ce28210b56927a9b6/sentencepiece-0.2.3.tar.gz",
+    "sha256": "e38f5960984c2350dba530a89395789c0ea6039a1b551511b478b94dec1d5dfa",
+    "bytes": 10757,
+    "archive_sha256": "21618ad31f0453a1ebf5ec58defed99758d54af0b670546ecac639ddd8b86fbd",
+    "archive_member": "sentencepiece-0.2.3/sentencepiece/third_party/libsais/LICENSE"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/COPYING.LGPL",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "f2f118b9029ec1871b953639ecc46651b2fc7b62e295e6cf3ef2ac4c9a058b33",
+    "bytes": 26432,
+    "archive_sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "archive_member": "soxr-1.1.0/COPYING.LGPL"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/LICENSE.txt",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "aeeb7bce59a3dcc7bb08a48a2f012f340c6b28ec50cd22f0ad93194a7d254420",
+    "bytes": 713,
+    "archive_sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "archive_member": "soxr-1.1.0/LICENSE.txt"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/cmake/LICENSE-PFFFT.txt",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "a9f3d236f3c14a41a1293f176d4c7c46d85404403417fcb8df6d6c9707104e42",
+    "bytes": 2122,
+    "archive_sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "archive_member": "soxr-1.1.0/cmake/LICENSE-PFFFT.txt"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/libsoxr/COPYING.LGPL",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "f2f118b9029ec1871b953639ecc46651b2fc7b62e295e6cf3ef2ac4c9a058b33",
+    "bytes": 26432,
+    "archive_sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "archive_member": "soxr-1.1.0/libsoxr/COPYING.LGPL"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/libsoxr/LICENCE",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "dc98676341fdcd29d9f279c9679d6a75288785b174ded8d1b2e316c366166135",
+    "bytes": 1024,
+    "archive_sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "archive_member": "soxr-1.1.0/libsoxr/LICENCE"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/libsoxr/lsr-tests/COPYING",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670",
+    "bytes": 17992,
+    "archive_sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "archive_member": "soxr-1.1.0/libsoxr/lsr-tests/COPYING"
+  },
+  {
+    "package": "soxr",
+    "version": "1.1.0",
+    "file": "soxr/soxr-1.1.0.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/ed/11/27cebce4a108f77afea7c80545115536b45e3f11ebfb914f638fdd9ba847/soxr-1.1.0.tar.gz",
+    "sha256": "9f228ae21c78fa9359ca98d8a5e8e91f30639e438e574133dace62c5b5309e44",
+    "bytes": 173067,
+    "kind": "corresponding-source-archive"
+  },
+  {
+    "package": "tokenizers",
+    "version": "0.23.3",
+    "file": "tokenizers/tokenizers/LICENSE",
+    "url": "https://files.pythonhosted.org/packages/e0/7c/2cabb2174e772636683008f2c5621949b645da7d303c596589e84516a184/tokenizers-0.23.3.tar.gz",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "archive_sha256": "cded33237c77caeef62944d32aa9a7ef42bdce2b3497e18d137e072a8c4be438",
+    "archive_member": "tokenizers-0.23.3/tokenizers/LICENSE"
+  },
+  {
+    "package": "torch-complex",
+    "version": "0.4.4",
+    "file": "torch-complex/LICENSE",
+    "url": "https://raw.githubusercontent.com/kamo-naoyuki/pytorch_complex/4f447a6fec61e1f66b0fd816e4a2ea455241a6f9/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "note": "Upstream added the Apache-2.0 text after the v0.4.4 tag; all four distributed torch_complex Python modules match this commit byte-for-byte."
+  },
+  {
+    "package": "tqdm",
+    "version": "4.70.1",
+    "file": "tqdm/LICENCE",
+    "url": "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz",
+    "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+    "bytes": 1985,
+    "archive_sha256": "cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4",
+    "archive_member": "tqdm-4.70.1/LICENCE"
+  },
+  {
+    "package": "tqdm",
+    "version": "4.70.1",
+    "file": "tqdm/MPL-2.0.txt",
+    "url": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+    "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+    "bytes": 16726
+  }
+]

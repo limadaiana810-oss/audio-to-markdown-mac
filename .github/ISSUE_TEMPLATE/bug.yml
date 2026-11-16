@@ -1,0 +1,50 @@
+name: 问题反馈 / Bug report
+description: 告诉我们哪个环节没有按预期工作 / Report something that did not work.
+title: '[Bug] '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢反馈！请先搜索已有问题。中文或 English 都可以。
+        请勿直接上传真实会议录音、全文、姓名或本机完整路径；优先提供自制或已获授权且脱敏的最小样例。
+        Please search existing issues first. Use a synthetic or authorized, redacted sample; do not upload private recordings, full transcripts, names, or local paths.
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本 / App version
+      placeholder: '2.5.1 — DMG or source build'
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 设备与系统 / Mac and macOS
+      placeholder: 'M5, 16 GB, macOS 26.1'
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 录音数量、格式、时长、是否已有缓存，以及具体操作。 / Include file count, format, duration, cache state, and steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期与实际 / Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏错误信息或样例 / Redacted error or sample
+      description: 可选。仅贴相关几行日志；移除路径、姓名、录音内容和其他隐私。 / Optional. Share only relevant log lines with private information removed.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 内容确认 / Content check
+      options:
+        - label: 我已移除隐私信息，且有权分享所附内容。 / I removed private information and have permission to share the attached content.
+          required: true

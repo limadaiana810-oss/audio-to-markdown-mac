@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 下载与版本记录 / Downloads and releases
+    url: https://github.com/limadaiana810-oss/audio-to-markdown-mac/releases
+    about: 查看最新安装包、更新说明和历史版本 / Find installers, release notes, and older versions.
+  - name: 贡献指南 / Contributing
+    url: https://github.com/limadaiana810-oss/audio-to-markdown-mac/blob/main/CONTRIBUTING.md
+    about: 从问题反馈到第一个 Pull Request / From feedback to your first Pull Request.

@@ -1,0 +1,8 @@
+{
+  "release": "20261026",
+  "python": "3.12.16",
+  "architecture": "aarch64-apple-darwin",
+  "metadata_archive_sha256": "016758f4881e5f71d63eddfbcdd53f25c5a9152435a863e4dc0770758eae32c3",
+  "metadata_archive": "https://github.com/astral-sh/python-build-standalone/releases/download/20261026/cpython-3.12.16%2B20261026-aarch64-apple-darwin-pgo%2Blto-full.tar.zst",
+  "runtime_archive_sha256": "353d5f1b4fd2715e7053f12f068435d5bbad16b91e057006b5d01e0925709a7e"
+}
